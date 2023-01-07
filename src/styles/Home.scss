@@ -1,0 +1,48 @@
+.Home {
+    width: 1512px;
+    height: 982px;
+    background: url('../../public/Home-PhotoRoom.png'), #FFFFFF;
+    position: relative;
+    left: 110px;
+    background-repeat: no-repeat
+}
+
+.input{
+    position: absolute;
+    width: 915px;
+    height: 80px;
+    left: 209px;
+    top: 122px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 800px;
+    border: none;
+    height: 70px;
+    font-size: 30px;
+    box-sizing: border-box;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.search-icon{
+    height: 31px;
+    width: 31px;
+    left: 4px;
+    top: 4px;
+    border-radius: 0px;
+  
+  }
+
+.logo{
+    position: absolute;
+    right: 250px;
+}
