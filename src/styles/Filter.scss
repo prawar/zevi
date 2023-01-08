@@ -1,0 +1,21 @@
+.filter{
+    padding: 5px;
+}
+
+.filter-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.filter-list-item{
+    margin-right: 10px;
+}

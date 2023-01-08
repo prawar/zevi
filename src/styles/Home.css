@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-input {
+.home-input {
   width: 800px;
   border: none;
   height: 70px;

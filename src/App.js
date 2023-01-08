@@ -1,11 +1,19 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 import './App.css';
 import Home from './components/Home';
+import Search from './components/Search';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/search/' element={<Search />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
