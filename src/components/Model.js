@@ -24,13 +24,13 @@ const Model = () => {
                 <div className='item-list'>
                     {trend?.map(item =>
                         <div className='item'>
-                            <img src={item.thumbnail} className='image' />
+                            <img src={item.thumbnail} className='model-image' />
                             <p>{item.title}</p>
                         </div>)}
                 </div>
             </div>
             <div className='m-bottom'>
-                <h3>Popular Suggestion</h3>
+                <h3 style={{marginBottom: '20px'}}>Popular Suggestion</h3>
                 <div className='suggestion-list'>
                     {suggestion?.map(item =><p>{item}</p>)}
                 </div>

@@ -1,4 +1,21 @@
+.product {
+  position: relative;
+}
+
 .image {
   height: 325px;
   width: 239px;
+}
+
+.hover-element {
+  height: 47px;
+  width: 239px;
+  left: 0px;
+  top: 278px;
+  background: rgba(109, 132, 255, 0.71);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
 }/*# sourceMappingURL=Product.css.map */

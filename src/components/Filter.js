@@ -1,3 +1,4 @@
+import { ExpandMore } from '@mui/icons-material'
 import React from 'react'
 import '../styles/Filter.css'
 
@@ -6,7 +7,7 @@ const Filter = ({ filter }) => {
         <div className='filter'>
             <div className='filter-top'>
                 <p>{filter.title}</p>
-                <img src='arrow.svg' />
+                <ExpandMore />
             </div>
             <div className='filter-list'>
                 {filter.items.map(item =>

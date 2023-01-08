@@ -1,14 +1,18 @@
 import React, { useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import '../styles/Home.css'
 import Model from './Model';
 
 const Home = () => {
   let inputRef = useRef(null);
+  let navigate = useNavigate();
   const [show, setShow] = useState(false);
 
   const handleSearch = () => {
     let value = inputRef.current.value;
     console.log(value);
+    if(value)
+    navigate(`search/${value}`);
   }
 
   return (
@@ -24,7 +28,7 @@ const Home = () => {
             handleSearch();
           }}
           onFocus={()=>setShow(true)}
-          // onBlur={()=>setShow(false)}/
+          onBlur={()=>setShow(false)}
           />
         <img src='/search.svg' className='search-icon' onClick={handleSearch} />
       </div>

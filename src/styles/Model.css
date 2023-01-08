@@ -9,7 +9,7 @@
   padding: 35px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   align-items: flex-start;
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .item {
@@ -30,11 +30,16 @@
   justify-content: space-between;
 }
 
-.image {
-  width: 165px;
+.model-image {
+  width: 160px;
   height: 180px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.m-bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .suggestion-list {
@@ -42,4 +47,5 @@
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
+  gap: 10px;
 }/*# sourceMappingURL=Model.css.map */
